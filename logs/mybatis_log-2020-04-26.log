@@ -1,0 +1,52 @@
+2020-04-26 14:17:20.348[main][main] INFO  com.niit.vhrend.VhrEndApplication - Starting VhrEndApplication on LAPTOP-LKR9U61D with PID 14400 (C:\Users\asus\Desktop\weirenshi-springboot-master\target\classes started by asus in C:\Users\asus\Desktop\weirenshi-springboot-master)
+2020-04-26 14:17:20.350[main][main] INFO  com.niit.vhrend.VhrEndApplication - No active profile set, falling back to default profiles: default
+2020-04-26 14:17:21.517[main][main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-04-26 14:17:21.961[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8050 (http)
+2020-04-26 14:17:21.970[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8050"]
+2020-04-26 14:17:21.970[main][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-26 14:17:21.970[main][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-26 14:17:22.068[main][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-26 14:17:22.068[main][main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1673 ms
+2020-04-26 14:17:22.161[main][main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-26 14:17:22.308[main][main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-26 14:17:23.090[main][main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-26 14:17:23.165[main][main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-26 14:17:23.428[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7db162f2, org.springframework.security.web.context.SecurityContextPersistenceFilter@7a1ddbf1, org.springframework.security.web.header.HeaderWriterFilter@3c9f4376, org.springframework.security.web.authentication.logout.LogoutFilter@598778cc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@d1f23a0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@581918f6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26865b57, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64f3991e, org.springframework.security.web.session.SessionManagementFilter@7da77305, org.springframework.security.web.access.ExceptionTranslationFilter@349f3ff7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6efd0a6e]
+2020-04-26 14:17:23.461[main][main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-26 14:17:23.471[main][main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-26 14:17:23.494[main][main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-26 14:17:23.564[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-04-26 14:17:23.568[main][main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteJObLevelUsingDELETE_1
+2020-04-26 14:17:23.578[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-04-26 14:17:23.581[main][main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deletePositionUsingDELETE_1
+2020-04-26 14:17:23.609[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8050"]
+2020-04-26 14:17:23.625[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8050 (http) with context path ''
+2020-04-26 14:17:23.642[main][main] INFO  com.niit.vhrend.VhrEndApplication - Started VhrEndApplication in 3.673 seconds (JVM running for 5.817)
+2020-04-26 14:26:49.019[main][main] INFO  com.niit.vhrend.VhrEndApplication - Starting VhrEndApplication on LAPTOP-LKR9U61D with PID 15336 (C:\Users\asus\Desktop\weirenshi-springboot-master\target\classes started by asus in C:\Users\asus\Desktop\weirenshi-springboot-master)
+2020-04-26 14:26:49.021[main][main] INFO  com.niit.vhrend.VhrEndApplication - No active profile set, falling back to default profiles: default
+2020-04-26 14:26:50.051[main][main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-04-26 14:26:50.442[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8050 (http)
+2020-04-26 14:26:50.450[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8050"]
+2020-04-26 14:26:50.450[main][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-26 14:26:50.451[main][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-26 14:26:50.519[main][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-26 14:26:50.520[main][main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1440 ms
+2020-04-26 14:26:50.615[main][main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-26 14:26:50.686[main][main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-26 14:26:51.385[main][main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-26 14:26:51.473[main][main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-26 14:26:51.691[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44de8e00, org.springframework.security.web.context.SecurityContextPersistenceFilter@7b598d05, org.springframework.security.web.header.HeaderWriterFilter@6e7e0259, org.springframework.security.web.authentication.logout.LogoutFilter@52856ff9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3a70575, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@371cd2fc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@177ddd24, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3cbfdf5c, org.springframework.security.web.session.SessionManagementFilter@5501d1c8, org.springframework.security.web.access.ExceptionTranslationFilter@4d2f9e3c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7221539]
+2020-04-26 14:26:51.738[main][main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-26 14:26:51.752[main][main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-26 14:26:51.783[main][main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-26 14:26:51.878[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-04-26 14:26:51.886[main][main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteJObLevelUsingDELETE_1
+2020-04-26 14:26:51.903[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-04-26 14:26:51.908[main][main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deletePositionUsingDELETE_1
+2020-04-26 14:26:51.958[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8050"]
+2020-04-26 14:26:51.989[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8050 (http) with context path ''
+2020-04-26 14:26:51.992[main][main] INFO  com.niit.vhrend.VhrEndApplication - Started VhrEndApplication in 3.356 seconds (JVM running for 4.466)
+2020-04-26 14:27:19.225[http-nio-8050-exec-1][http-nio-8050-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-26 14:27:19.227[http-nio-8050-exec-1][http-nio-8050-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-26 14:27:19.269[http-nio-8050-exec-1][http-nio-8050-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 42 ms
+2020-04-26 14:27:19.723[http-nio-8050-exec-1][http-nio-8050-exec-1] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [236] milliseconds.

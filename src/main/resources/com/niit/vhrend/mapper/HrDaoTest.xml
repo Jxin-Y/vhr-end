@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.niit.vhrend.mapper.HrDaoTest">
+  <resultMap id="BaseResultMap" type="com.niit.vhrend.model.HrTest">
+    <result column="name" jdbcType="INTEGER" property="name" />
+    <result column="phone" jdbcType="INTEGER" property="phone" />
+    <result column="telephone" jdbcType="INTEGER" property="telephone" />
+    <result column="address" jdbcType="INTEGER" property="address" />
+    <result column="enabled" jdbcType="INTEGER" property="enabled" />
+    <result column="username" jdbcType="INTEGER" property="username" />
+    <result column="password" jdbcType="INTEGER" property="password" />
+    <result column="userface" jdbcType="INTEGER" property="userface" />
+    <result column="remark" jdbcType="INTEGER" property="remark" />
+    <result column="id" jdbcType="INTEGER" property="id" />
+  </resultMap>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.niit.vhrend.model.HrTest" useGeneratedKeys="true">
+    insert into hr (`name`, phone, telephone, 
+      address, enabled, username, 
+      `password`, userface, remark
+      )
+    values (#{name,jdbcType=INTEGER}, #{phone,jdbcType=INTEGER}, #{telephone,jdbcType=INTEGER}, 
+      #{address,jdbcType=INTEGER}, #{enabled,jdbcType=INTEGER}, #{username,jdbcType=INTEGER}, 
+      #{password,jdbcType=INTEGER}, #{userface,jdbcType=INTEGER}, #{remark,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.niit.vhrend.model.HrTest" useGeneratedKeys="true">
+    insert into hr
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="name != null">
+        `name`,
+      </if>
+      <if test="phone != null">
+        phone,
+      </if>
+      <if test="telephone != null">
+        telephone,
+      </if>
+      <if test="address != null">
+        address,
+      </if>
+      <if test="enabled != null">
+        enabled,
+      </if>
+      <if test="username != null">
+        username,
+      </if>
+      <if test="password != null">
+        `password`,
+      </if>
+      <if test="userface != null">
+        userface,
+      </if>
+      <if test="remark != null">
+        remark,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="name != null">
+        #{name,jdbcType=INTEGER},
+      </if>
+      <if test="phone != null">
+        #{phone,jdbcType=INTEGER},
+      </if>
+      <if test="telephone != null">
+        #{telephone,jdbcType=INTEGER},
+      </if>
+      <if test="address != null">
+        #{address,jdbcType=INTEGER},
+      </if>
+      <if test="enabled != null">
+        #{enabled,jdbcType=INTEGER},
+      </if>
+      <if test="username != null">
+        #{username,jdbcType=INTEGER},
+      </if>
+      <if test="password != null">
+        #{password,jdbcType=INTEGER},
+      </if>
+      <if test="userface != null">
+        #{userface,jdbcType=INTEGER},
+      </if>
+      <if test="remark != null">
+        #{remark,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+</mapper>
